@@ -13,7 +13,6 @@ in
     };
     qt = {
       enable = true;
-      platformTheme.name = "kde6";
     };
     home.sessionVariables.ILLOGICAL_IMPULSE_VIRTUAL_ENV = "~/.local/state/quickshell/.venv";
 
