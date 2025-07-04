@@ -105,7 +105,6 @@ in
 
       # # WIDGETS #
       glib
-      swww
       translate-shell
       wlogout
 
