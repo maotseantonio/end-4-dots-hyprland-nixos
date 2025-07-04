@@ -13,6 +13,7 @@ in
     };
     qt = {
       enable = true;
+      platformTheme.name = "kvantum";
     };
     home.sessionVariables.ILLOGICAL_IMPULSE_VIRTUAL_ENV = "~/.local/state/quickshell/.venv";
 
