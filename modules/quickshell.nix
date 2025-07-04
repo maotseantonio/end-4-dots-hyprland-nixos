@@ -5,14 +5,14 @@ in
 {
   config = lib.mkIf cfg.enable {
     gtk = {
-      enable = true;
+      enable = false;
       iconTheme = {
         package = pkgs.adwaita-icon-theme;
         name = "Adwaita";
       };
     };
     qt = {
-      enable = true;
+      enable = false;
       platformTheme.name = "kvantum";
     };
     home.sessionVariables.ILLOGICAL_IMPULSE_VIRTUAL_ENV = "~/.local/state/quickshell/.venv";
